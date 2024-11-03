@@ -61,18 +61,27 @@ header {
     transition-duration: 0.4s;
     
 }
-
-
-.sign-in {
+.sin button{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+}
+.sin a{
+    color: #FFFFFF;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.sin{
     background-color: #4db6ac;
     color: #fff;
-    
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     font-family: "Tinos", serif;
     font-weight: 400;
     font-style: normal;
+    border-radius: 10px;
     
 }
 button:hover{
